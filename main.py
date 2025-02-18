@@ -1,5 +1,5 @@
 from packages.menu import menu, display_task_list
-from packages.cruid import add_task, task_done, delete_task
+from packages.crud import add_task, task_done, delete_task
 
 def main():
     """ Функция, вызывающая другие функции """
