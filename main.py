@@ -18,7 +18,7 @@ def main():
         elif action == "3":
             delete_task(task_list)
         display_task_list(task_list)
-        menu()
+        # menu()
         action = input("Выберите действие: ")
 
 
